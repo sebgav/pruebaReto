@@ -1,4 +1,4 @@
-# Introduction 
+
 
 Proyecto creado en java, abarca una de las pruebas funcionales de la aplicación.
 La prueba consiste en realizar un registro de un usuari, con sus datos personales.

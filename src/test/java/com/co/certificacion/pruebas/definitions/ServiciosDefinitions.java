@@ -79,9 +79,10 @@ lsdata=dtoUser.getData();
 
     @Given("^consumo el serivio para eliminar$")
     public void consumoElSerivioParaEliminar() {
-        String link = "https://reqres.in/api/users/10";
+         String link = "https://reqres.in/api/users/10";
          spec = RestAssured.given();
          done = spec.delete(link);
+         
     }
     @When("^valido el status code$")
     public void validoElStatusCode() {

@@ -18,6 +18,8 @@ import org.json.JSONObject;
 
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
+import java.util.logging.Logger;
 
 import static jxl.biff.BaseCellFeatures.logger;
 
@@ -28,6 +30,9 @@ public class ServiciosDefinitions {
     JSONObject obj;
     private User dtoUser;
     private List<Datum> lsdata;
+    private String endpont;
+    private RequestSpecification spec;
+    private  Response done;
 
     @Given("^consumo el serivio$")
     public void consumoElSerivio() {
@@ -54,6 +59,41 @@ lsdata=dtoUser.getData();
             logger.info("Nombre en posicion "+i+" "+ lsdata.get(i).getName()+"\n");
         }
     }
+
+    @Given("^consumo el serivio post$")
+    public void consumoElSerivioPost() {
+         String json = "{place: 'earth', message: 'Hello'}";
+         endpont="https://reqres.in/api/users";
+
+        RequestSpecification spec = RestAssured.given();
+        Response result = spec.get(link);
+        spec.body(json);
+        result.then().assertThat().statusCode(200);
+        ObjectMapper mapper=new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+        try {
+            dtoUser=mapper.readValue(result.asString(), User.class);
+        } catch (JsonProcessingException e) {
+            logger.error("Fallo en el mapper",e);
+        }
+    }
+
+    @Given("^consumo el serivio para eliminar$")
+    public void consumoElSerivioParaEliminar() {
+        String link = "https://reqres.in/api/users/10";
+         spec = RestAssured.given();
+         done = spec.delete(link);
+    }
+    @When("^valido el status code$")
+    public void validoElStatusCode() {
+        // Write code here that turns the phrase above into concrete actions
+        done.then().assertThat().statusCode(204);
+    }
+    @Then("^valido que halla eliminado$")
+    public void validoQueHallaEliminado() {
+        // Write code here that turns the phrase above into concrete actions
+        logger.info("Tiempo "+done.getTimeIn(TimeUnit.NANOSECONDS));
+    }
+
 }
 
 

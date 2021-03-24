@@ -34,7 +34,7 @@ public class ServiciosDefinitions {
     private RequestSpecification spec;
     private  Response done;
 
-    @Given("^consumo el serivio$")
+    @Given("^consumo el  serivio$")
     public void consumoElSerivio() {
         RequestSpecification spec = RestAssured.given();
         Response result = spec.get(link);
@@ -89,7 +89,7 @@ lsdata=dtoUser.getData();
         // Write code here that turns the phrase above into concrete actions
         done.then().assertThat().statusCode(204);
     }
-    @Then("^valido que halla eliminado$")
+    @Then("^valido que  halla eliminado$")
     public void validoQueHallaEliminado() {
         // Write code here that turns the phrase above into concrete actions
         logger.info("Tiempo "+done.getTimeIn(TimeUnit.NANOSECONDS));

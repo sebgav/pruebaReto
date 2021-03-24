@@ -11,7 +11,6 @@ import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import sun.plugin.dom.html.HTMLInputElement;
 
 import java.util.ArrayList;
 import java.util.Collections;

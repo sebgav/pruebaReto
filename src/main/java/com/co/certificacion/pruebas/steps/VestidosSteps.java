@@ -1,22 +1,25 @@
-package com.sofka.certificacion.yourlogo.steps;
+package com.co.certificacion.pruebas.steps;
 
 import java.util.List;
 
-import com.sofka.certificacion.yourlogo.userinterface.IngresarDatosFormulario;
-import com.sofka.certificacion.yourlogo.userinterface.LoginPage;
-import com.sofka.certificacion.yourlogo.userinterface.MyAccount;
-import com.sofka.certificacion.yourlogo.userinterface.PaginaInicial;
+import com.co.certificacion.pruebas.userinterface.LoginPage;
+import com.co.certificacion.pruebas.userinterface.MyAccount;
+import com.co.certificacion.pruebas.userinterface.PaginaInicial;
+import com.github.javafaker.Faker;
+import com.co.certificacion.pruebas.userinterface.IngresarDatosFormulario;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.Step;
+import org.junit.Assert;
 
-public class YourlogoSteps extends PageObject {
+public class VestidosSteps extends PageObject {
 
 	PaginaInicial paginaInicial;
 	LoginPage loginPage;
 	IngresarDatosFormulario ingresarDatosFormulario;
 	MyAccount myAccount;
-	
+	private List<Double> lsPrecios;
+
 	@Step
 	public void abrirUrl() {
 		paginaInicial.open();
@@ -26,8 +29,10 @@ public class YourlogoSteps extends PageObject {
 		loginPage.ingresarCuenta();
 	}
 	@Step
-	public void ingresarEmail(List<String> datos) {
-		loginPage.ingresarEmail(datos);
+	public void ingresarEmail() {
+		Faker faker=new Faker();
+
+		loginPage.ingresarEmail(faker.internet().emailAddress());
 		loginPage.pressCreateAccount();
 	}
 	@Step
@@ -50,10 +55,25 @@ public class YourlogoSteps extends PageObject {
 		ingresarDatosFormulario.ingresarAlias(datos);
 		ingresarDatosFormulario.pressionarContinuar();
 	}
-	
+
 	@Step
-	public void miCreditoDisp(String txtCredit) {
-		myAccount.selMyCredit();
-		myAccount.CapturaMensaje(txtCredit);
+	public void seleccionarVestidoBarato()
+	{
+		myAccount.presionarVestidos();
+		lsPrecios=myAccount.ordenarPrecios();
+		myAccount.seleccionarVestidoBarato(String.valueOf(lsPrecios.get(0)));
+
+	}
+
+	public void seleccionarVestidoCaro() {
+		myAccount.seleccionarVestidoCaro(String.valueOf(lsPrecios.get(lsPrecios.size()-1)));
+
+
+	}
+
+	@Step
+	public void validadPreciosEnCarrito()
+	{
+		Assert.assertEquals(String.format("Se valida precio total pantalla %s vs suma articulos %s",("$"+String.valueOf(lsPrecios.get(0)+lsPrecios.get(lsPrecios.size()-1)).trim()),myAccount.getValorTotal()), ("$"+String.valueOf(lsPrecios.get(0)+lsPrecios.get(lsPrecios.size()-1)).trim()),myAccount.getValorTotal());
 	}
 }

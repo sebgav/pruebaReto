@@ -1,4 +1,4 @@
-package com.sofka.certificacion.yourlogo.userinterface;
+package com.co.certificacion.pruebas.userinterface;
 
 import java.util.List;
 
@@ -21,8 +21,8 @@ public class LoginPage extends PageObject {
 		btnSingIn.click();
 	}
 	
-	public void ingresarEmail(List<String>datos) {
-		lblEmail.type(datos.get(16));
+	public void ingresarEmail(String correo) {
+		lblEmail.type(correo);
 		
 	}
 	

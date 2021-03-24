@@ -1,4 +1,4 @@
-package com.sofka.certificacion.yourlogo.userinterface;
+package com.co.certificacion.pruebas.userinterface;
 
 import java.util.List;
 
@@ -66,75 +66,75 @@ public class IngresarDatosFormulario extends PageObject {
 	}
 
 	public void ingresarName(List<String> datos) {
-		txtFirstName.type(datos.get(17));
+		txtFirstName.type(datos.get(0));
 	}
 
 	public void ingresarLastName(List<String> datos) {
-		txtLastName.type(datos.get(18));
+		txtLastName.type(datos.get(1));
 	}
 
 	public void ingresarPassword(List<String> datos) {
-		txtPassword.typeAndTab(datos.get(19));
+		txtPassword.typeAndTab(datos.get(2));
 	}
 
 	public void ingresarDay(List<String> datos) {
 		WebElement day = txtdays.findElement(By.id("days"));
 		day.click();
-		day.sendKeys(datos.get(20));
+		day.sendKeys(datos.get(3));
 	}
 
 	public void ingresarMonth(List<String> datos) {
 		WebElement month = txtmonth.findElement(By.id("months"));
 		month.click();
-		month.sendKeys(datos.get(21));
+		month.sendKeys(datos.get(4));
 	}
 
 	public void ingresarYear(List<String> datos) {
 		WebElement year = txtyear.findElement(By.id("years"));
 		year.click();
-		year.sendKeys(datos.get(22));
+		year.sendKeys(datos.get(5));
 	}
 
 	public void ingresarNameAddress(List<String> datos) {
-		txtNameAddress.type(datos.get(23));
+		txtNameAddress.type(datos.get(6));
 	}
 
 	public void ingresarLastAddress(List<String> datos) {
-		txtLastAddress.type(datos.get(24));
+		txtLastAddress.type(datos.get(7));
 	}
 
 	public void ingresarCompany(List<String> datos) {
-		txtCompany.type(datos.get(25));
+		txtCompany.type(datos.get(8));
 
 	}
 
 	public void ingresarAddress(List<String> datos) {
-		txtaddress.type(datos.get(26));
+		txtaddress.type(datos.get(9));
 
 	}
 
 	public void ingresarCity(List<String> datos) {
-		txtcity.type(datos.get(27));
+		txtcity.type(datos.get(10));
 
 	}
 
 	public void ingresarState(List<String> datos) {
 		WebElement state = txtstate.findElement(By.id("id_state"));
 		state.click();
-		state.sendKeys(datos.get(28));
+		state.sendKeys(datos.get(11));
 	}
 
 	public void ingresarCodPostal(List<String> datos) {
-		txtpostCode.type(datos.get(29));
+		txtpostCode.type(datos.get(12));
 
 	}
 
 	public void ingresarMobil(List<String> datos) {
-		txtphoneMobile.type(datos.get(30));
+		txtphoneMobile.type(datos.get(13));
 	}
 
 	public void ingresarAlias(List<String> datos) {
-		txtAlias.type(datos.get(31));
+		txtAlias.type(datos.get(14));
 	}
 
 	public void pressionarContinuar() {

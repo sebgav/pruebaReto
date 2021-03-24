@@ -1,4 +1,4 @@
-package com.sofka.certificacion.yourlogo.userinterface;
+package com.co.certificacion.pruebas.userinterface;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;

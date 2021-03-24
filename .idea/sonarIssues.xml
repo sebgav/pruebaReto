@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Afpcore/portal1/TRASLADO_PRODUCTOS_AFP/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Afpcore/portal1/TRASLADO_PRODUCTOS_AFP/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Afpcore/portal1/TRASLADO_PRODUCTOS_AFP/jenkinsFile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Afpcore/portal1/TRASLADO_PRODUCTOS_AFP/src/main/java/co/com/proteccion/afpcore/test/page/PageSeleccionarAporteManualmente.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Afpcore/portal1/TRASLADO_PRODUCTOS_AFP/src/main/java/co/com/proteccion/afpcore/test/page/PageSeleccionarRutaAgotamientoAlternativas.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Afpcore/portal1/TRASLADO_PRODUCTOS_AFP/src/test/java/TestRunnerEscenariosFallidos.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Afpcore/portal1/TRASLADO_PRODUCTOS_AFP/src/test/java/TestRunnerPreparacionEscenarioFallidos.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Afpcore/portal1/TRASLADO_PRODUCTOS_AFP/src/test/java/TestRunnerTrasladoProducto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Afpcore/portal1/generales_e2e_afpcore/src/main/java/co/com/proteccion/afpcore/test/controllers/BussinesControllerC.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Afpcore/portal1/generales_e2e_afpcore/src/main/java/co/com/proteccion/afpcore/test/data/DataGenerator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Afpcore/portal1/generales_e2e_afpcore/src/main/java/co/com/proteccion/afpcore/test/data/Template.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Afpcore/portal1/transaccionessobrecuentas_e2e_afpcore/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Afpcore/portal1/transaccionessobrecuentas_e2e_afpcore/jenkinsFile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Afpcore/portal1/transaccionessobrecuentas_e2e_afpcore/src/main/java/co/com/proteccion/afpcore/test/page/trasladoEntreCuentas/PageRegistrarSolicitudTransferenciaEntreCuentas.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Afpcore/portal1/transaccionessobrecuentas_e2e_afpcore/src/test/java/TestRunnerEscenariosFallidos.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Afpcore/portal1/transaccionessobrecuentas_e2e_afpcore/src/test/java/TestRunnerPerfilesCuenta.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Afpcore/portal1/transaccionessobrecuentas_e2e_afpcore/src/test/java/TestRunnerPreparacionEscenarioFallidos.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Afpcore/portal1/transaccionessobrecuentas_e2e_afpcore/src/test/java/TestRunnerTrasladoEntreCuentas.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Afpcore/portal1/transaccionessobrecuentas_e2e_afpcore/src/test/java/TestRunnerValidacionesRecomposicion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/settings.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/certificacion/pruebas/steps/YourlogoSteps.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/certificacion/pruebas/userinterface/IngresarDatosFormulario.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/certificacion/pruebas/userinterface/LoginPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/certificacion/pruebas/userinterface/MyAccount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/certificacion/pruebas/userinterface/PaginaInicial.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/certificacion/prueba/steps/YourlogoSteps.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/certificacion/prueba/userinterface/IngresarDatosFormulario.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/certificacion/prueba/userinterface/LoginPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/certificacion/prueba/userinterface/MyAccount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/certificacion/prueba/userinterface/PaginaInicial.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/certificacion/pruebas/steps/VestidosSteps.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/certificacion/pruebas/steps/YourlogoSteps.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/certificacion/pruebas/userinterface/IngresarDatosFormulario.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/certificacion/pruebas/userinterface/LoginPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/certificacion/pruebas/userinterface/MyAccount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/co/certificacion/pruebas/userinterface/PaginaInicial.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/sofka/certificacion/yourlogo/steps/YourlogoSteps.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/sofka/certificacion/yourlogo/userinterface/IngresarDatosFormulario.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/sofka/certificacion/yourlogo/userinterface/LoginPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/sofka/certificacion/yourlogo/userinterface/MyAccount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/sofka/certificacion/yourlogo/userinterface/PaginaInicial.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/certificacion/pruebas/definitions/VestidosYourlogoDefinitions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/certificacion/pruebas/runnertest/VestidosRunnerTestSite.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/co/certificacion/prueba/definitions/VestidosYourlogoDefinitions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/co/certificacion/prueba/runnertest/VestidosRunnerTestSite.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/co/certificacion/pruebas/definitions/ServiciosDefinitions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/co/certificacion/pruebas/definitions/VestidosYourlogoDefinitions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/co/certificacion/pruebas/runnertest/ServiciosRunnerTestSite.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/co/certificacion/pruebas/runnertest/VestidosRunnerTestSite.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/sofka/certificacion/yourlogo/definitions/CuentaYourlogoDefinitions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/sofka/certificacion/yourlogo/definitions/VestidosYourlogoDefinitions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/sofka/certificacion/yourlogo/runnertest/CuentaYourlogoRunnerTestSite.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/sofka/certificacion/yourlogo/runnertest/VestidosRunnerTestSite.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/features/servicios.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/features/vestidos.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/features/yourlogo.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/target/site/serenity/932902fc58faf58a9ffb9d99157ccfdbf6cce67e58d009884d58bc34b566425b_screenshots.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

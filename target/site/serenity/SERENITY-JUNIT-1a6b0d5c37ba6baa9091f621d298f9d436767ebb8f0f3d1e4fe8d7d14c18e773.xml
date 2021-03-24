@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="operaciones  Servicios" skipped="0" tests="3" time="12.18" timestamp="2021-03-24 01:26:39"><testcase name="Operacion Get"/><testcase name="Operacion post"/><testcase name="Operacion delete"/></testsuite>

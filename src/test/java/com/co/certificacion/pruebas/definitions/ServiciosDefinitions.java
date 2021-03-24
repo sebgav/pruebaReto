@@ -82,7 +82,7 @@ lsdata=dtoUser.getData();
          String link = "https://reqres.in/api/users/10";
          spec = RestAssured.given();
          done = spec.delete(link);
-         
+
     }
     @When("^valido el status code$")
     public void validoElStatusCode() {
